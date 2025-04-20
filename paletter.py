@@ -104,6 +104,19 @@ with st.sidebar:
         except Exception as e:
             st.error(f"Error importing presets: {e}")
 
+    # --- Credits ---
+    st.sidebar.markdown("---") # Separator
+    with st.sidebar.expander("Credits", expanded=False):
+        st.image("theonetwo.gif", width=80) # Adjust width as needed
+        st.markdown("**Developed by ThΞOneTwo**")
+        st.markdown("\
+            [![Twitter](https://img.shields.io/badge/Twitter-%40Th3onetwo-1DA1F2?style=flat-square&logo=twitter)](https://x.com/Th3onetwo)\
+            [![GitHub](https://img.shields.io/badge/GitHub-theonetwoone-181717?style=flat-square&logo=github)](https://github.com/theonetwoone)\
+        ")
+        st.markdown("**Websites:**")
+        st.markdown("- [NordFix.dk](https://www.nordfix.dk/en)")
+        st.markdown("- [CyberSkulls.app](https://www.cyberskulls.app/)")
+
 # Utility functions
 
 def get_contrast_text_color(rgb):
