@@ -1,0 +1,1 @@
+{"sq": {"grid_type": "Rectangular", "grid_res": 53, "adaptive": false, "shape": "Square", "dot_radius": 26, "font_size": 12, "color_format": "HEX", "label_pos": "Center", "offset_x": 0, "offset_y": 0, "text_rotation": 0, "dynamic_contrast": true, "avoid_overlap": false}}
